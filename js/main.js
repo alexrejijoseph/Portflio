@@ -161,3 +161,16 @@
     });
   }
 })();
+document.addEventListener("keydown", function (e) {
+  if (e.ctrlKey && (e.key === "p" || e.key === "P")) {
+    e.preventDefault();
+
+    const printWindow = window.open("pdf/Alex_Reji_Resume.pdf");
+
+    if (printWindow) {
+      printWindow.onload = function () {
+        printWindow.print();
+      };
+    }
+  }
+});
