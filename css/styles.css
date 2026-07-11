@@ -175,8 +175,8 @@ svg {
   position: relative;
   overflow: hidden;
   background:
-    radial-gradient(circle at 10% 15%, rgba(37, 99, 235, 0.09), transparent 26%),
-    linear-gradient(135deg, #f8fafc 0%, #eef7f6 48%, #fff7ed 100%);
+          radial-gradient(circle at 10% 15%, rgba(37, 99, 235, 0.09), transparent 26%),
+          linear-gradient(135deg, #f8fafc 0%, #eef7f6 48%, #fff7ed 100%);
 }
 
 .section-band::before {
@@ -184,8 +184,8 @@ svg {
   inset: 0;
   pointer-events: none;
   background-image:
-    linear-gradient(rgba(17, 24, 39, 0.045) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(17, 24, 39, 0.045) 1px, transparent 1px);
+          linear-gradient(rgba(17, 24, 39, 0.045) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(17, 24, 39, 0.045) 1px, transparent 1px);
   background-size: 42px 42px;
   content: "";
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent 78%);
